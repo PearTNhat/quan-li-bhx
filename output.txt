@@ -1,0 +1,16 @@
+0,Noi,GD,120k,3,500g,22/10/2012,10 nam,So 7 Quan 1 HCM
+1,Chen,GD,20k,4,200g,22/10/2019,12 nam,So 8 Quan 4 HCM
+2,Chuoi,TC,12k,6,500g,22/10/2022,25/10/2022,So 7 Quan 6 HCM
+3,Oi,TC,10k,4,10g,26/10/2012,28/10/2022,So 7 Quan 9 HCM
+4,Muoi,TP,16k,4,100g,22/10/2012,22/10/2023,So 7 Quan 2 HCM
+5,Noi,GD,120k,4,500g,22/10/2012,10 nam,So 7 Quan 1 HCM
+6,Noi,GD,120k,4,500g,22/10/2012,10 nam,So 7 Quan 6 HCM
+7,Noi,GD,120k,4,500g,22/10/2012,10 nam,So 7 Quan 4 HCM
+8,Noi,GD,120k,3,500g,22/10/2012,10 nam,So 7 Quan 8 HCM
+9,Noi,GD,120k,5,500g,22/10/2012,10 nam,So 7 Quan 8 HCM
+10,Noi,GD,120k,4,500g,22/10/2012,10 nam,So 7 Quan 8 HCM
+11,Noi,GD,120k,4,500g,22/10/2012,10 nam,So 7 Quan 4 HCM
+12,Noi,GD,120k,5,500g,22/10/2012,10 nam,So 7 Quan 8 HCM
+13,Noi TQ,GD,120k,6,500g,22/10/2012,10 nam,So 7 Quan 8 HCM
+14,Noi NB,GD,120k,4,500g,22/10/2012,10 nam,So 7 Quan 8 HCM
+15,Oi xoai,TC,100,s,100,dad,adad,1123
