@@ -1,6 +1,5 @@
 #include "khaibao.h"
 char box_menu_chinh[3][20] = { "Quan ly hang","Quan ly nhan vien","Mua hang" };
-//hello0
 char product_header_table[10][20] = {
 		"MSP",
 		"Ten",
