@@ -1255,6 +1255,18 @@ bool only_number(char x) {
 	}
 	return false;
 }
+bool only_letter(char x) {
+	if (x >= 'a' && x <= 'z') {
+		return true;
+	}
+	if (x >= 'A' && x <= 'Z') {
+		return true;
+	}
+	else if (x == 8 || x == 13) {
+		return true;
+	}
+	return false;
+}
 bool decimal_number(char x) {
 
 	if (x >= '0' && x <= '9') {
@@ -1317,6 +1329,9 @@ string input(int l, int t, int r, int b,int kcl,int kct,string value,int max_val
 		}
 		else if (z==2) {
 			check_key= decimal_number(key);
+		}
+		else if (z==3) {
+			check_key = only_letter(key);
 		}
 		else {
 			check_key=kt_KTu(key);
