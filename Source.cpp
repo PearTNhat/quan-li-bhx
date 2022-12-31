@@ -290,7 +290,7 @@ int main() {
 								s0 = trim(s0);
 								strcpy_s(temp.ten, s0.c_str());
 							}
-							else if (ktVT(320, 190, 410, 215, x, y)) {//phan loai
+							else if (ktVT(320, 190, 410, 215, x, y)) {//phan loaii
 								char letter[] = { "" };
 								while (1) {
 									char e[25] = { "Phan loai chua hop le" };
