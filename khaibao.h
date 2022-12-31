@@ -137,7 +137,7 @@ string input(int l, int t, int r, int b, int kcl=0,
 void push_product(vector <product>& ds, product temp);
 void split(char x, string v, vector <string>& arr);
 string format_num(string s);
-string to_upper(string s);
+string to_upper(string s, bool all = true);
 string trim(string s);
 string getDate();
 bool check_day_month(int l, int t, int r, int b, int kcl, int kct, string day, string month="", string year="", int small_y=0);

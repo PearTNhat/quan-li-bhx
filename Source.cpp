@@ -928,7 +928,19 @@ int main() {
 								s0 = input(320, 155, 750, 180, 2, 2, s0);
 								s0 = trim(s0);
 								vector <string> nameUp;
-
+								split(' ', s0, nameUp);
+								s0 = "";
+								for (int i = 0; i < nameUp.size(); i++)
+								{
+									s0 += to_upper(nameUp[i],false)+" ";
+								}
+								s0 = trim(s0);
+								char z[255];
+								strcpy_s(z, s0.c_str());
+								setbkcolor(15);
+								setfillstyle(1, 15);
+								bar3d(320, 155, 750, 180,0,0);
+								outtextxy(322, 157, z);
 								strcpy_s(temp_s.ten, s0.c_str());
 							}
 							else if (ktVT(320, 210, 370, 235, x, y)) {//ns d
@@ -1129,6 +1141,20 @@ int main() {
 								highlight_box(320, 155, 750, 180, letter);
 								s0 = input(320, 155, 750, 180, 2, 2, s0);
 								s0 = trim(s0);
+								vector <string> nameUp;
+								split(' ', s0, nameUp);
+								s0 = "";
+								for (int i = 0; i < nameUp.size(); i++)
+								{
+									s0 += to_upper(nameUp[i], false) + " ";
+								}
+								s0 = trim(s0);
+								char z[255];
+								strcpy_s(z, s0.c_str());
+								setbkcolor(15);
+								setfillstyle(1, 15);
+								bar3d(320, 155, 750, 180, 0, 0);
+								outtextxy(322, 157, z);
 								strcpy_s(temp_s.ten, s0.c_str());
 							}
 							else if (ktVT(320, 210, 370, 235, x, y)) {//ns d
