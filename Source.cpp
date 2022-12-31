@@ -86,6 +86,18 @@ int main() {
 	read_file_staff(list_s);
 	read_top10(product_sold);
 	read_list_bill(l_bills);
+	vector<string> dateTemp;
+	vector<string> check_day;
+	split('/',getDate(), dateTemp);
+	split(' ', dateTemp[0], check_day);
+	if (l_bills.size()>0) {
+		vector<string> day_bill;
+		split('/', l_bills[0].date, day_bill);
+		split(' ', day_bill[0], day_bill);
+		if (check_day[1]!= day_bill[4]) {
+			l_bills.clear();
+		}
+	}
 	if(l_bills.size()>0){
 		code_bill =atoi( l_bills[l_bills.size() - 1].mhd)+1;
 	}
@@ -915,6 +927,8 @@ int main() {
 								highlight_box(320, 155, 750, 180, letter);
 								s0 = input(320, 155, 750, 180, 2, 2, s0);
 								s0 = trim(s0);
+								vector <string> nameUp;
+
 								strcpy_s(temp_s.ten, s0.c_str());
 							}
 							else if (ktVT(320, 210, 370, 235, x, y)) {//ns d
@@ -922,7 +936,7 @@ int main() {
 									char letter[] = { "" };
 									highlight_box(320, 210, 370, 235, letter);
 									ns_d = input(320, 210, 370, 235, 2, 2, ns_d, 2, 1);
-									bool a = check_day_month(320, 210, 370, 235, 2, 2, ns_m, ns_d);
+									bool a = check_day_month(320, 210, 370, 235, 2, 2, ns_d);
 									if (a) {
 										break;
 									}

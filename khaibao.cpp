@@ -210,9 +210,11 @@ void normal_text() { //set mau mac dinh cua ung dung
 void menu_chinh(char a[][20]) {
 	setfillstyle(1,7);
 	bar(0,52,1000,100);
-	settextstyle(f_lon, 0, 4);
+	settextstyle(f_lon, 0, 6);
+	setcolor(2);
+	setbkcolor(8);
 	char x[] = { "Bach hoa xanh" };
-	outtextxy(333, 10, x);
+	outtextxy(220, 0, x);
 	normal_box(60,63,237,94,a[0],f_lon, 1,5);
 	normal_box(363,63,598,94,a[1],f_lon, 1, 5);
 	normal_box(716,63,850,94,a[2],f_lon, 1, 5);
